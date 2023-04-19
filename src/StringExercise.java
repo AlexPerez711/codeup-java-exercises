@@ -1,7 +1,8 @@
 public class StringExercise {
     public static void main(String[] args) {
-        String q1 = "We don't need no education";
-        System.out.println(q1.replace("education", "thought control"));
+        String q1 = "We don't need no education\n" +
+        "We don't need no thought control";
+        System.out.println(q1);
 
         String q2 = "\nCheck \"this\" out!, \"s inside of \"s!";
         System.out.println(q2);
